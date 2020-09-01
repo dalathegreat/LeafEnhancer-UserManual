@@ -41,12 +41,12 @@ Adjusting AC max charge speed is something that most EV makers have on their veh
 
 ### How to use CurrentControl and set a max kW limiter
 When the car is connected to an EVSE and is slowcharging, turn on the car to wake up the HVAC controls. Set the fan to maximum speed(7), and switch on recirculation mode. You will see the capacity bars on the dash board start to move, along with the SOC% if you have the newer LEAF that has this. These are the current options Condition held:
-    under 4s equals to Unrestricted kW, Visualized as 12 capacity bars and SOC%=66
-    over 4s equals to 6.0 kW, Visualized as 11 capacity bars and SOC%=60
-    over 6s equals to 5.0 kW, Visualized as 10 capacity bars and SOC%=50
-    over 8s equals to 4.0 kW, Visualized as 9 capacity bars and SOC%=40
-    over 10s equals to 3.0 kW, Visualized as 8 capacity bars and SOC%=30
-    over 12s equals to 2.0 kW, Visualized as 7 capacity bars and SOC%=20
-    over 14s equals to 1.0 kW, Visualized as 6 capacity bars and SOC%=10
-  Use this video as a guide
-  https://www.youtube.com/watch?v=u6fHHyJBMu8
+* under 4s equals to Unrestricted kW, Visualized as 12 capacity bars and SOC%=66
+* over 4s equals to 6.0 kW, Visualized as 11 capacity bars and SOC%=60
+* over 6s equals to 5.0 kW, Visualized as 10 capacity bars and SOC%=50
+* over 8s equals to 4.0 kW, Visualized as 9 capacity bars and SOC%=40
+* over 10s equals to 3.0 kW, Visualized as 8 capacity bars and SOC%=30
+* over 12s equals to 2.0 kW, Visualized as 7 capacity bars and SOC%=20
+* over 14s equals to 1.0 kW, Visualized as 6 capacity bars and SOC%=10
+
+Use this video as a guide https://www.youtube.com/watch?v=u6fHHyJBMu8
