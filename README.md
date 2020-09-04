@@ -50,3 +50,7 @@ When the car is connected to an EVSE and is slowcharging, turn on the car to wak
 * over 14s equals to 1.0 kW, Visualized as 6 capacity bars and SOC%=10
 
 Use this video as a guide https://www.youtube.com/watch?v=u6fHHyJBMu8
+
+# Updating the firmware
+Updating the firmware is done with an Atmel compatible flashing tool. The cheapes tool for this is the now obsolete "AVRisp mkII". It costs roughly 20€.
+Detailed flashing instructions can be found in this youtube video: https://www.youtube.com/watch?v=eLcNSo2Vn6U
