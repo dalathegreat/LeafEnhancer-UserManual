@@ -51,6 +51,11 @@ When the car is connected to an EVSE and is slowcharging, turn on the car to wak
 
 Use this video as a guide https://www.youtube.com/watch?v=u6fHHyJBMu8
 
+## RapidgateDodger
+RapidgateDodger is a 35kW charging limit that can be activated on demand while quickcharging, in order to avoid hard rapidgate on long trips. RapidgateDodger also avoids degradation due to heat. Useful for 40/62kWh Leafs.
+
+Use this video as a guide https://youtu.be/QiZoGIeBpww
+
 # Updating the firmware
 Updating the firmware is done with an Atmel compatible flashing tool. The cheapes tool for this is the now obsolete "AVRisp mkII". It costs roughly 20€.
 Detailed flashing instructions can be found in this youtube video: https://www.youtube.com/watch?v=eLcNSo2Vn6U
