@@ -1,7 +1,7 @@
 # LeafEnhancer - User Manual
 User manual for the LeafEnhancer software developed by Dala's EV Repair LeafEnhancer is a compilation of enhancements for the 2010-2017 Nissan Leaf. It brings some well needed quality of life improvements to make the older LEAF more competetive, compared to the features present on todays EVs. Here is all the enhancements:
 
-## CapacityBoost ❌ (Work in progress)
+## CapacityBoost ❌ (AZE0 only, Work in progress for ZE0)
 This software allows for more extraction of usable power from the battery. This is done by tapping into the buffer that is normally used to prevent degradation. An 8% capacity increase is extracted this way. This roughly translates to 5-15km of additional range depending on your batteries current state of health.
 
 Technically this is done by charging the cells to 4.20V, instead of the default 4.12V. Be aware that the battery degradation can be sped up if the car is left at 100% state of charge for extended periods of time with this modification. If possible, try to only charge to 100% when really needed, and use the 80% charge limiter or BatterySaver for daily use.
@@ -36,7 +36,7 @@ On the 2013-2017 LEAF, it is possible to bypass the nagscreen that appears on th
 
 NagscreenRemover is still being developed
 
-## CurrentControl ❌ (Work in progress)
+## CurrentControl ✔️
 Adjusting AC max charge speed is something that most EV makers have on their vehicles. This setting is ofter accessed via a touchscreen inside the vehicle. Unfortunately, the Nissan Leaf is not equipped with this setting, even though the on-board-charger is technically able to decide what amount of power can go into the battery. This has led owners of the Leaf to rely on the EVSE to set the correct max power lever. Often leading to the user having to opt for a more expenive EVSE that has some current control on the cable/handle. The code here aims to correct this, and enable setting the charge speed from within the vehicle.
 
 ### How to use CurrentControl and set a max kW limiter
@@ -51,10 +51,15 @@ When the car is connected to an EVSE and is slowcharging, turn on the car to wak
 
 Use this video as a guide https://www.youtube.com/watch?v=u6fHHyJBMu8
 
-## RapidgateDodger
+## RapidgateDodger ✔️
 RapidgateDodger is a 35kW charging limit that can be activated on demand while quickcharging, in order to avoid hard rapidgate on long trips. RapidgateDodger also avoids degradation due to heat. Useful for 40/62kWh Leafs.
 
 Use this video as a guide https://youtu.be/QiZoGIeBpww
+
+For even more information on how/why, see this video: https://www.youtube.com/watch?v=ensZ33hhNB8
+
+# Installation
+To install the CAN-bridge, you need to splice into the EV-CAN that runs between the battery and vehicle. The CAN-bridge also needs constant +12V and ground. A total of 6 wires. See this video for installation tips: https://www.youtube.com/watch?v=eLcNSo2Vn6U
 
 # Updating the firmware
 Updating the firmware is done with an Atmel compatible flashing tool. The cheapes tool for this is the now obsolete "AVRisp mkII". It costs roughly 20€.
