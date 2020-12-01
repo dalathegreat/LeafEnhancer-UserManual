@@ -6,6 +6,8 @@ This software allows for more extraction of usable power from the battery. This 
 
 Technically this is done by charging the cells to 4.20V, instead of the default 4.12V. Be aware that the battery degradation can be sped up if the car is left at 100% state of charge for extended periods of time with this modification. If possible, try to only charge to 100% when really needed, and use the 80% charge limiter or BatterySaver for daily use.
 
+Leafspy should not be used while vehicle is charging, since the CAN-bridge needs to do extra battery-polling to achieve safe boost behaviour.
+
 ## BatterySaver ✔️
 BatterySaver is a fully customizable maximum charge limiter, extending on the one that was originally shipped with 2011-2013 LEAFs. The stock limiter only allowed setting two limiters, 80 and 100%. The BatterySaver extends on this, and can set the max charge percentage in six steps, 50, 58, 66, 75, 83, 92, 100 %.
 ### Why do I need a maximum charge limiter?
