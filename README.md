@@ -1,7 +1,7 @@
 # LeafEnhancer - User Manual
 User manual for the LeafEnhancer software developed by Dala's EV Repair LeafEnhancer is a compilation of enhancements for the 2010-2017 Nissan Leaf. It brings some well needed quality of life improvements to make the older LEAF more competetive, compared to the features present on todays EVs. Here is all the enhancements:
 
-## CapacityBoost ❌ (AZE0 only, Work in progress for ZE0)
+## CapacityBoost ✔️
 This software allows for more extraction of usable power from the battery. This is done by tapping into the buffer that is normally used to prevent degradation. An 8% capacity increase is extracted this way. This roughly translates to 5-15km of additional range depending on your batteries current state of health.
 
 Technically this is done by charging the cells to 4.20V, instead of the default 4.12V. Be aware that the battery degradation can be sped up if the car is left at 100% state of charge for extended periods of time with this modification. If possible, try to only charge to 100% when really needed, and use the 80% charge limiter or BatterySaver for daily use.
