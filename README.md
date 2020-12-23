@@ -1,5 +1,5 @@
 # LeafEnhancer - User Manual
-User manual for the LeafEnhancer software developed by Dala's EV Repair LeafEnhancer is a compilation of enhancements for the 2010-2017 Nissan Leaf. It brings some well needed quality of life improvements to make the older LEAF more competetive, compared to the features present on todays EVs. Here is all the enhancements:
+User manual for the LeafEnhancer software developed by Dala's EV Repair LeafEnhancer is a compilation of enhancements for the 2010-2017 Nissan Leaf. It brings some well needed quality of life improvements to make the older LEAF more competetive, compared to the features present on todays EVs. The full list of features here is also available for BatteryUpgrade customers. Here are all the enhancements:
 
 ## CapacityBoost ✔️
 This software allows for more extraction of usable power from the battery. This is done by tapping into the buffer that is normally used to prevent degradation. An 8% capacity increase is extracted this way. This roughly translates to 5-15km of additional range depending on your batteries current state of health.
@@ -54,7 +54,7 @@ When the car is connected to an EVSE and is slowcharging, turn on the car to wak
 Use this video as a guide https://www.youtube.com/watch?v=u6fHHyJBMu8
 
 ## RapidgateDodger ✔️
-RapidgateDodger is a 35kW charging limit that can be activated on demand while quickcharging, in order to avoid hard rapidgate on long trips. RapidgateDodger also avoids degradation due to heat. Useful for 40/62kWh Leafs.
+RapidgateDodger is a 25/35kW charging limit that can be activated on demand while quickcharging, in order to avoid hard rapidgate on long trips. RapidgateDodger also avoids degradation due to heat. Useful for 40/62kWh Leafs.
 
 Use this video as a guide https://youtu.be/QiZoGIeBpww
 
