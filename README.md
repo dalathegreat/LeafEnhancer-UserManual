@@ -15,6 +15,8 @@ To preserve battery life. By not charging the battery fully, you avoid long term
 ### How to set the BatterySaver limit?
 See this youtube video for a step by step guide: https://www.youtube.com/watch?v=yJvrB6aw5Ys
 To set the charge limiter, turn on re-circulation, and set fan speed to max (7). You'll see the dash capacity bars start to move, along with the state of charge %. When the desired charge max % is reached, it can be set by turning down the fan speed.
+### How do I see what BatterySaver is set to?
+To quickly see what setting is active, switch the gear selector from D->N. The setting will be shown momentarily on the dash. Note that this action will also trigger the glide in drive feature, so do it again to re-enable regenerative braking (see next chapter)
 
 ## Glide in Drive ✔️
 When enabled, 'Glide in Drive' removes regenerative braking. This can be useful for hypermiling (avoid regen on highway, it's only 80% effective) or when doing service to friction brakes, and you want to check for noise/evenness (hard when regen takes over).
